@@ -628,8 +628,12 @@ footer {
 	}
 	.process_text {
 		order: 1;
+		
+	}
+	.process_text > div p {
 		font-size: 60px;
 	}
+	
 	.process_picture {
 		order: 2;
 	}
