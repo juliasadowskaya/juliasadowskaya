@@ -653,10 +653,16 @@ footer {
 		padding-bottom: 20px;
 	}
 	.intro__title {
-		font-size: 100px;
+		font-size: 200px;
 	}
 	.btn {
-		font-size: 35px;
+		font-size: 60px;
+	}
+	.intro__subtitle {
+		font-size: 60px;
+	}
+	.intro {
+		height:100%;
 	}
 
 
