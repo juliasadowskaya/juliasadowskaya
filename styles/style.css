@@ -628,6 +628,7 @@ footer {
 	}
 	.process_text {
 		order: 1;
+		font-size: 60px;
 	}
 	.process_picture {
 		order: 2;
