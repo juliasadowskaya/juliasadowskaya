@@ -643,6 +643,7 @@ footer {
 	}
 	.autor_text{
 		padding-bottom: 50px;
+		font-size: 35px;
 
 	}
 	.autor_picture {
@@ -651,6 +652,11 @@ footer {
 	.autor {
 		padding-bottom: 20px;
 	}
-
+	.intro__title {
+		font-size: 100px;
+	}
+	.btn {
+		font-size: 35px;
+	}
 
 
