@@ -621,7 +621,7 @@ footer {
 	}
 }
 
-@media only all and (max-width: 725px) {
+@media only all and (max-width: 1080px) {
 	.process_inner {
 		flex-wrap: wrap;
 
