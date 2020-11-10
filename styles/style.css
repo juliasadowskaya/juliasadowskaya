@@ -621,19 +621,14 @@ footer {
 	}
 }
 
-@media only all and (max-width: 1081px) {
+@media only all and (max-width: 720px) {
 	.process_inner {
 		flex-wrap: wrap;
 
 	}
 	.process_text {
 		order: 1;
-		
 	}
-	.process_text > div p {
-		font-size: 60px;
-	}
-	
 	.process_picture {
 		order: 2;
 	}
@@ -646,28 +641,6 @@ footer {
 	grid-template-areas: "gr2" "gr1" "gr3" "gr4";
 
 	}
-	.autor_text{
-		padding-bottom: 50px;
-		font-size: 60px;
-
-	}
-	.autor_picture {
-	width: 100%;
-	}	
-	.autor {
-		padding-bottom: 20px;
-	}
-	.intro__title {
-		font-size: 200px;
-	}
-	.btn {
-		font-size: 60px;
-	}
-	.intro__subtitle {
-		font-size: 60px;
-	}
-	.intro {
-		height:100%;
-	}
+}
 
 
