@@ -1,0 +1,287 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+
+@font-face {
+
+font-family: "Hangyaboly";
+src: url("fonts/8479.ttf");
+}
+
+html {
+	min-width: 320px;
+} 
+
+body {
+	margin: 0px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	
+	background-color: #fff;
+}
+*,
+*:before,
+:after 
+{
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;  
+	 -moz-box-sizing: border-box; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+p {
+	margin: 0 0 10px 0;
+}
+.category {
+	display: none;
+	height: 60px;
+	padding-top: 75px;
+	background-color: #d3f5e7;
+}
+.container{
+	width: 100%;
+	max-width:1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+
+}
+.master-item {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin: 50px 0;
+	padding-bottom: 50px;
+	-ms-flex-line-pack: center;
+	    align-content: center;
+}
+.master-item:first-child {
+	margin-top: 100px;
+}
+.m-text{
+	-webkit-box-flex: 60%;
+	    -ms-flex: 60%;
+	        flex: 60%;
+	position: relative;
+}
+.m-text > h3 {
+	margin-bottom: 20px;
+	font-family: 'Hangyaboly', sans-serif;
+	font-size: 30px;
+	color: #05a893; 
+}
+.m-name {
+	display: none;
+	font-family: 'Hangyaboly', sans-serif;
+	font-size: 30px;
+	color: #05a893; 
+}
+.m-pic {
+	-webkit-box-flex: 40%;
+	    -ms-flex: 40%;
+	        flex: 40%;
+	border: 1px solid black;
+	border-color:transparent;
+}
+.m-pic {
+	position: relative;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	max-width: 450px;
+	
+}
+.m-pic img {
+	
+	height: auto;
+}
+.form {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    margin-top: 20px;
+}
+.pic-top{
+	position: absolute;
+	top: 200px;
+	right: 20px;
+}
+.form__input-field:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.form-last {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: solid;
+    line-height: 1.2;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.form__input-field {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    line-height: 1.2;
+    font-size: 18px;
+    -webkit-transition: border-color .2s ease;
+    -o-transition: border-color .2s ease;
+    transition: border-color .2s ease;
+}
+.form__input-field {
+    height: 42px;
+    border: 1px solid #dcdcdc;
+    padding-left: 10px;
+    -webkit-transition: border-color .2s ease;
+    -moz-transition: border-color .2s ease;
+    -ms-transition: border-color .2s ease;
+    -o-transition: border-color .2s ease;
+}
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+       -moz-appearance: textfield;
+            appearance: textfield;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 12px 'Raleway', sans-serif;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    -o-border-image: initial;
+       border-image: initial;
+}
+.form-btn {
+	-webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+	vertical-align: top;
+	font-family: inherit; /*наследование шрифта родителя*/
+	padding: 15px 20px;
+	border-radius: 3px;
+	cursor: pointer; /*у кнопки по умолчанию просто стрелочка*/
+	border: solid 1px #4cb6a3;
+	font-size: 16px;
+	color: #ffffff;
+	background: #4cb6a3;
+	font-weight: 400;
+	text-decoration: none;
+	-webkit-transition: background-color 0.1s linear;
+	-o-transition: background-color 0.1s linear;
+	transition: background-color 0.1s linear;
+	margin-top: 20px;
+}
+.form-btn:hover {
+	background: rgb(53,207,184);	
+  	background: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(53,207,184,1)), to(rgba(119,198,209,1)));	
+  	background: -o-linear-gradient(left, rgba(53,207,184,1) 50%, rgba(119,198,209,1) 100%);	
+  	background: linear-gradient(90deg, rgba(53,207,184,1) 50%, rgba(119,198,209,1) 100%);
+}
+.form-btn:active {
+  outline: none;
+  -webkit-box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+          box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1)
+}
+
+@media only all and (max-width: 1067px) {
+
+	.gallery__inner .gallery__item:last-child{
+		display: none;
+	}
+}
+
+@media only all and (max-width: 916px) {
+
+	.gallery__item {
+		-webkit-box-flex: 1;
+		    -ms-flex: 1 1 300px;
+		        flex: 1 1 300px;
+	}
+}
+
+@media only all and (max-width: 720px) {
+	.master-item {
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		margin-bottom: 20px;
+
+	}
+	.master-item:nth-child(n+1) {
+		margin-top: 20px;
+	} 
+	.m-name-decstop {
+		display: none;
+	}
+	.m-name {
+		display: block;
+		-webkit-box-ordinal-group: 2;
+		    -ms-flex-order: 1;
+		        order: 1;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+	
+	.m-pic {
+		-webkit-box-ordinal-group: 3;
+		    -ms-flex-order: 2;
+		        order: 2;
+		top: 10px;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+
+	.m-text {
+		-webkit-box-ordinal-group: 4;
+		    -ms-flex-order: 3;
+		        order: 3;
+		margin-top: 120px;
+	}
+	.pic-top{
+	position: absolute;
+	top: 200px;
+	right: 0px;
+	}
+	.category {
+		display: block;
+	}
+	.category a {
+		display: block;
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+}
+@media only all and (max-width: 420px) {
+	.pic-top {
+		display: none;
+	}
+	.m-pic img{
+		width: 100%;
+		max-width: 420px;
+		height: auto;
+	}
+}
